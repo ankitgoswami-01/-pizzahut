@@ -1,0 +1,1211 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oregano:ital@0;1&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    width: 100%;
+    height: 97px;
+    background-color: #FFFFFF;
+    position: fixed;
+    z-index: 11;
+
+}
+
+.header_1 {
+    width: 80%;
+    height: 97px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+
+}
+
+.logo {
+    width: 245px;
+    height: 67px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 110px;
+    height: 60px;
+}
+
+.pizza_hut {
+    width: 119px;
+    height: 38px;
+    color: #EE3A43;
+    font-family: "Fugaz One", sans-serif;
+    font-size: 24px;
+}
+
+nav {
+    width: 521px;
+    height: 41px;
+    display: flex;
+    align-items: center;
+
+}
+
+nav ul {
+    font-size: 18px;
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    font-size: 18px;
+    font-family: "Oswald", sans-serif;
+    gap: 40px;
+    padding: 8px
+}
+
+ul li img {
+    width: 10px;
+    padding-top: 4px;
+
+}
+
+.content_box {
+    width: 280px;
+    height: 67px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Container {
+    width: 33px;
+    height: 32px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.Container img {
+    width: 19px;
+    height: 25px;
+}
+
+.content_box button {
+    width: 181px;
+    height: 57px;
+    border-radius: 7px;
+    background-color: #FFC222;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: "Oswald", sans-serif;
+
+}
+
+section {
+    width: 100%;
+    /* height: 100vh; */
+    padding-top: 97px;
+}
+
+.section_1 {
+    width: 100%;
+    height: 833px;
+    background-image: url('../img/banner image.png');
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    max-width: 1650px;
+    margin: 0 auto;
+
+
+}
+
+.section_1_left {
+
+    width: 50%;
+    height: 833px;
+    padding: 130px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 600px
+}
+
+.section_1_right {
+    align-items: center;
+    width: 50%;
+    height: 833px;
+    padding: 290px 50px
+}
+
+.section_1_left span {
+
+    font-size: 20px;
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+
+
+}
+
+.section_1_left h1 {
+    width: 658px;
+    height: 188px;
+    font-size: 80px;
+    font-family: "Roboto", sans-serif;
+    color: #FFFFFF;
+
+}
+
+.Exclusive_offer {
+    font-size: 28px;
+    font-family: "Oregano", cursive;
+    position: relative;
+    top: 0;
+    left: 0;
+    color: #FFFFFF;
+}
+
+.Exclusive_offer span {
+    color: #FFC222;
+    font-size: 28px;
+    font-family: "Oregano", cursive;
+
+}
+
+.Exclusive_offer_image {
+    width: 94px;
+    height: 20px;
+    position: absolute;
+    left: 119px;
+    top: 23px;
+    max-width: 100%;
+    display: block;
+}
+
+.order_now {
+    width: 213px;
+    height: 65px;
+    border-radius: 9px;
+    background-color: #EF294C;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    font-size: 17px;
+    font-weight: bolder;
+    font-family: "Oswald", sans-serif;
+    cursor: pointer;
+    margin-top: 50px;
+
+
+
+}
+
+.order_now img {
+    width: 24px;
+    height: 16px;
+}
+
+.but_group {
+    width: 450px;
+    height: 64px;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+
+}
+
+.but_group input {
+    width: 180px;
+    height: 25px;
+    background-color: #FFFFFF;
+    color: #838383;
+    border: none;
+    outline: none;
+    margin-left: 50px;
+    font-size: 16px;
+    font-family: Lato;
+}
+
+.but_group button {
+    width: 157px;
+    height: 64px;
+    border-radius: 50px;
+    background-color: #EF294C;
+    border: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: Quicksand;
+    cursor: pointer;
+
+
+}
+
+.section_1_right_box {
+    width: 574px;
+    height: 190px;
+}
+
+.discount_box {
+    width: 300px;
+    height: 200px;
+    background: #873535;
+    background: linear-gradient(126deg, rgba(135, 53, 53, 0.91) 99%, rgba(176, 69, 113, 0.81) 100%);
+    border-radius: 10px 50px 25px;
+}
+
+.section_1_right_box img {
+    width: 100%;
+    height: 100%;
+}
+
+.section_2 {
+    width: 100%;
+    height: 517px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.section_2_box1 {
+    width: 405px;
+    height: 331px;
+    border-radius: 9px;
+    overflow: hidden;
+    background-image: url(../img/pizza1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    transition-duration: 0.6s;
+    cursor: pointer;
+
+}
+
+.section_2_box1:hover {
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+}
+
+.section_2_box1 h1 {
+    width: 173px;
+    height: 24px;
+    font-weight: bolder;
+    font-size: 18px;
+    color: #FFC222;
+    font-family: "Oswald", sans-serif;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+
+}
+
+.Delicious_hot_pizza {
+    width: 177px;
+    height: 100px;
+    font-family: "Oswald", sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.order_now_1 {
+    width: 100px;
+    height: 45px;
+    font-size: 17px;
+    font-family: "Oswald", sans-serif;
+    color: #FFFFFF;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+
+}
+
+.Crispy_discount {
+    width: 181px;
+    height: 158px;
+    position: absolute;
+    top: -20px;
+    left: 190px;
+
+}
+
+.section_2_box2 {
+    width: 405px;
+    height: 331px;
+    border-radius: 9px;
+    overflow: hidden;
+    background-image: url(../img/frenchfry1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition-duration: 0.6s;
+    cursor: pointer;
+
+
+}
+
+.section_2_box2:hover {
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+}
+
+.section_2_box2 h1 {
+    width: 335px;
+    height: 40px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: "Oswald", sans-serif;
+    margin-top: 100px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.french_fry {
+    width: 172px;
+    height: 52px;
+    color: #FFFFFF;
+    font-family: "Oswald", sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left: 20px;
+    margin-top: 10px;
+
+
+}
+
+.section_2_box2 h2 {
+    width: 140px;
+    height: 23px;
+    font-size: 18px;
+    font-family: "Oswald", sans-serif;
+    color: #FFFFFF;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+
+.section_2_box3 {
+    width: 405px;
+    height: 331px;
+    border-radius: 9px;
+    overflow: hidden;
+    background-image: url(../img/chikenfrench.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition-duration: 0.6s;
+    cursor: pointer;
+
+}
+
+.section_2_box3:hover {
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+}
+
+.section_2_box3 h1 {
+    margin-top: 100px;
+    width: 190px;
+    height: 24px;
+    font-weight: bolder;
+    font-size: 18px;
+    margin-left: 20px;
+    color: #FFC222;
+    font-family: "Oswald", sans-serif;
+    display: flex;
+    align-items: center;
+
+}
+
+.about_food {
+    width: 100%;
+    height: 771px;
+    justify-content: center;
+    display: flex;
+}
+
+.about_food_1 {
+    width: 848px;
+    height: 651px;
+
+}
+
+.about_food_1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.about_food_2 {
+    width: 848px;
+    height: 651px;
+}
+
+.about_food_2 h1 {
+    width: 110px;
+    height: 28px;
+    font-weight: bold;
+    color: #00A149;
+    font-size: 17px;
+    font-family: "Oswald", sans-serif;
+    text-transform: capitalize;
+    margin-top: 25px;
+    margin-left: 35px;
+    cursor: pointer;
+}
+
+.about_food_2 h2 {
+    width: 581px;
+    height: 166px;
+    font-weight: bold;
+    font-size: 60px;
+    color: #212121;
+    font-family: "Oswald", sans-serif;
+    text-transform: capitalize;
+    margin-left: 35px;
+    cursor: pointer;
+
+
+}
+
+.about_food_box {
+    width: 700px;
+    height: 130px;
+    margin-left: 35px;
+    margin-top: 170px;
+    cursor: pointer;
+
+
+}
+
+.about_food_box img {
+    width: 100%;
+    height: 100%;
+}
+
+.about_food_box_1 {
+    width: 650px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 35px;
+    margin-top: 45px;
+    cursor: pointer;
+}
+
+.about_food_box_image {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.about_food_box_image img {
+    width: 100%;
+    height: 100%;
+}
+
+.about_food_box_image1 {
+    width: 121px;
+    height: 46px;
+    cursor: pointer;
+}
+
+.about_food_box_image1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.about_food_box_image2 {
+    width: 450px;
+    height: 36px;
+    border-radius: 20px;
+    background-color: #212121;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: "Oswald", sans-serif;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.hot_delicious_item {
+    width: 100%;
+    height: 784px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hot_delicious_item_1 {
+    width: 100%;
+    height: 784px;
+    background-color: #F3F3F3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    justify-content: center;
+}
+
+.hot_delicious_item_1 h1 {
+    width: 173px;
+    height: 28px;
+    text-transform: capitalize;
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    color: #00A149;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hot_delicious_item_1 h2 {
+    width: 470px;
+    height: 70px;
+    text-transform: capitalize;
+    font-family: "Oswald", sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: #212121;
+    align-items: center;
+    display: flex;
+
+
+}
+
+.hot_delicious_item_2 {
+    width: 1160px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.chicken_fry {
+    width: 154px;
+    height: 55px;
+    border-radius: 40px;
+    background-color: #FFC222;
+    color: #212121;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-family: "Oswald", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+.hot_delicious_item_3 {
+    width: 1184px;
+    height: 348px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+}
+
+.Chicago_Deep_Pizza {
+    width: 254px;
+    height: 313px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.Chicago_Deep_Pizza_image:hover {
+    transform: scale(1.05);
+    text-decoration: 0.6s;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+
+
+}
+
+.Chicago_Deep_Pizza_image {
+    width: 181px;
+    height: 181px;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+
+.Chicago_Deep_Pizza_image img {
+    width: 100%;
+    height: 100%;
+}
+
+.Chicago_Deep_Pizza h1 {
+    width: 254px;
+    height: 34px;
+    font-weight: bolder;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-family: "Oswald", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #212121;
+
+}
+
+.Chicago_Deep_Pizza_1 {
+    width: 241px;
+    height: 56px;
+    line-height: 20px;
+    text-transform: capitalize;
+    font-family: "Oswald", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    flex-direction: column;
+}
+
+.video-row {
+    width: 100%;
+    height: 500px;
+    background-color: #F3F3F3;
+    margin: 100px 0 100px 0;
+
+
+}
+
+.viedo_section {
+    width: 1184PX;
+    height: 100%;
+    margin: auto;
+}
+
+.viedo_section iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+}
+
+
+.Delivery_Challenge {
+    width: 100%;
+    height: 406px;
+    border: 1px solid red;
+    background-color: #EF294C;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1650px;
+
+}
+
+.Delivery_Challenge_1 {
+    width: 80%;
+    height: 406px;
+    display: flex;
+}
+
+.Delivery_Challenge_box1 {
+    width: 50%;
+    height: 406px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.Delivery_Challenge_box2 {
+    width: 50%;
+    height: 406px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.Delivery_Challenge_box1 h1 {
+    width: 255px;
+    height: 30px;
+    color: #FFC222;
+}
+
+.Delivery_Challenge_boxa {
+    width: 465px;
+    height: 150px;
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: "Oswald", sans-serif;
+    color: #FFFFFF;
+    line-height: 68px;
+
+
+
+}
+
+.Delivery_Challenge_image {
+    width: 412px;
+    height: 347px;
+}
+
+.Delivery_Challenge_image img {
+    width: 100%;
+    height: 100%;
+}
+
+.order_now_delivery {
+    width: 212px;
+    height: 65px;
+    font-size: 17px;
+    font-weight: bolder;
+    font-family: "Oswald", sans-serif;
+    text-transform: capitalize;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    border: none;
+    position: absolute;
+    top: 220px;
+    left: 395px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+
+}
+
+.special_delicious_section {
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    max-width: 1650px;
+    display: flex;
+    gap: 10px;
+
+}
+
+.special_delicious_section_left {
+    width: 50%;
+    height: 600px;
+    background-image: url(../img/beefchinesspizza.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.beefchinesspizza {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+
+}
+
+.beefchinesspizza span {
+    color: #FFFFFF;
+    font-family: "Oswald", sans-serif;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-size: 36px;
+}
+
+.beefchinesspizza h1 {
+    font-family: "Oswald", sans-serif;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.beefchinesspizza1 {
+    width: 300px;
+    height: 55px;
+    display: flex;
+    font-family: "Oswald", sans-serif;
+    text-transform: capitalize;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.special_delicious_section_right {
+    width: 50%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+   
+}
+
+.special_delicious_section_right_1 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    gap: 25px;
+    overflow: hidden;
+
+}
+
+.special_delicious_section_right_2 {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    gap: 25px;
+}
+
+.chefs-row {
+    width: 100%;
+    height: 750px;
+    background-color: #F3F3F3;
+    margin: 100px 0 100px 0;
+}
+
+.Our-Chefs {
+    width: 1184px;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.Our-Chefs h2 {
+    padding-top: 10px;
+    color: #00A149;
+
+}
+
+.Our-Chefs h1 {
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+.img-row {
+    width: 100%;
+    height: 78%;
+    display: flex;
+    gap: 3%;
+    padding: 5px;
+    margin-top: 30px;
+
+}
+
+.chefs-img-1 {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 4px 8px 0 rgba(119, 118, 118, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.chefs-img-1:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.chefs-img-1 img {
+    width: 100%;
+    height: 70%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.chefs-img-2 {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 4px 8px 0 rgba(119, 118, 118, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.chefs-img-2:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.chefs-img-2 img {
+    width: 100%;
+    height: 70%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.chefs-img-3 {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 4px 8px 0 rgba(119, 118, 118, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.chefs-img-3:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.chefs-img-3 img {
+    width: 100%;
+    height: 70%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.img-row h5 {
+    margin-top: 10px;
+    color: #4b4b4b;
+}
+
+.img-row p {
+    margin-top: 10px;
+    color: #4b4b4b;
+}
+
+.form-row {
+    width: 100%;
+    height: 1000px;
+
+}
+
+.form-inner-row {
+    width: 1184px;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.form-row h2 {
+    padding-top: 10px;
+    color: #00A149;
+
+}
+
+.form-row h1 {
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+.map {
+    width: 100%;
+    height: 50%;
+    margin-top: 20px;
+}
+
+.map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.input {
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px;
+
+}
+
+.input input {
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: rgb(231, 232, 234);
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+.our-photo {
+    width: 100%;
+    height: 350px;
+}
+
+.our-photo h1 {
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    color: #00A149;
+}
+
+.footer-img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.footer-img img {
+    width: 20%;
+    height: 100%;
+
+}
+
+.footer-row {
+    width: 100%;
+    margin-top: 50px;
+    background-color: #F3F3F3;
+}
+
+.footer-content {
+    width: 1234px;
+    padding: 50px;
+    margin: auto;
+    display: flex;
+}
+
+.footer-content-img {
+    width: 30%;
+}
+
+.iner-text {
+    width: 100%;
+    height: 300px;
+    background-color: #EE294B;
+    border-radius: 20px;
+}
+
+.iner-text h1 {
+    margin-left: 50px;
+    padding-top: 30px;
+    color: white;
+}
+
+.iner-text h5 {
+    color: white;
+    margin-left: 70px;
+}
+
+.day {
+    color: white;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+.day p {
+    margin-top: 30px;
+    margin-left: 0px;
+}
+
+.rated h5{
+    color: white;
+    margin-top: 60px;
+    margin-left: 50px;
+    font-size: 16px;
+    
+}
+
+.footer-content-about {
+    width: 20%;
+    /* border: 1px solid black; */
+}
+.footer-content-about h1{
+   margin-left: 55px;
+   margin-top: 35px;
+}
+.footer-content-about p{
+     margin-left: 60px;
+    margin-top: 15px;
+    color: #616161;
+}
+
+
+.footer-content-box4 {
+    width: 30%;
+    /* border: 1px solid black; */
+}
+.footer-content-box4 h1{
+     margin-left: 55px;
+   margin-top: 35px;
+}
+.footer-content-box4 p{
+     margin-left: 55px;
+     margin-top: 35px;
+}
+.footer-inp{
+     width: 75%;
+     margin-left: 55px;
+     margin-top: 15px;
+     padding: 15px;
+     border-radius: 5px;
+     outline: none;
+     border: none;
+     border: 1px solid #ccc;
+}
+.footer-border{
+    width: 130px;
+    height: 60px;
+    margin-top: 25px;
+    border: 3px solid #EE294B;
+    border-radius: 10px;
+    margin-left: 70px;
+   
+    position: relative;
+}
+.footer-boder-iner{
+    width: 130px;
+    height: 48px;
+    background-color: #EE294B;
+    border-radius: 10px;
+    position: absolute;
+    top: 6%;
+    right: 5%;
+}
+.footer-boder-iner p{
+    color: white;
+    margin-top: 13px;
+   margin-left: 10px;
+    text-align: center;
+}
+
+
+
